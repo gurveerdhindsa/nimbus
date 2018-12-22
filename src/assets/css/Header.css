@@ -1,3 +1,10 @@
 .drag {
     -webkit-app-region: drag;
 }
+
+.nimbus-image {
+    width: 50%;
+    margin: auto;
+    display: block;
+    opacity: 0.4;
+}

@@ -18,7 +18,12 @@ if ( process.defaultApp || /[\\/]electron-prebuilt[\\/]/.test(process.execPath) 
 function createWindow() {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    frame: false, width: 1024, height: 768, show: false
+    transparent: true,
+    alwaysOnTop: true,
+    frame: false,
+    width: 550,
+    height: 450,
+    show: false
   });
 
   // and load the index.html of the app.

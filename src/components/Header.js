@@ -4,7 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Header = props => (
     <div>
-        <FontAwesomeIcon icon="ellipsis-v" className="drag" />
+        <FontAwesomeIcon className="drag" icon="ellipsis-v" />
+
+        <img className="nimbus-image" src={require('../assets/images/nimbus.png')} />
     </div>
 );
 
