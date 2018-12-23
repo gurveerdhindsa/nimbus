@@ -1,10 +1,12 @@
-.drag {
+.icon-drag {
+    color: white;
     -webkit-app-region: drag;
+    opacity: 0.3;
 }
 
 .nimbus-image {
     width: 50%;
     margin: auto;
     display: block;
-    opacity: 0.4;
+    opacity: 0.7;
 }

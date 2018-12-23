@@ -1,0 +1,10 @@
+.input {
+    width: 50%;
+    margin: auto;
+    display: block;
+    opacity: 0.4;
+
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}

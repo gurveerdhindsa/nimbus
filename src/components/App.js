@@ -1,6 +1,7 @@
 import '../assets/css/App.css';
 import React, { Component } from 'react';
 import Header from './Header';
+import Input from './Input';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEllipsisV } from '@fortawesome/free-solid-svg-icons'
@@ -12,6 +13,7 @@ class App extends React.Component {
     return (
       <div>
         <Header/>
+        <Input/>
       </div>
     );
   }
