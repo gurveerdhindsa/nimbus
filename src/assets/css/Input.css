@@ -3,8 +3,21 @@
     margin: auto;
     display: block;
     opacity: 0.4;
+    background: white;
 
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
+}
+
+.valid {
+    background: #d5fdd5;
+}
+
+.invalid {
+    background: #ffb2b2;
+}
+
+.empty {
+    background: white;
 }
