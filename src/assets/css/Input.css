@@ -1,6 +1,9 @@
 .url-input {
     margin-top: 20%;
 }
+.disable {
+    display: none;
+}
 
 .input {
     width: 50%;

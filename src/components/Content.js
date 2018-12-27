@@ -62,9 +62,9 @@ class Content extends React.Component {
         return (
             <div className="main">
             <FontAwesomeIcon className="icon-drag" icon="ellipsis-v" />
-            <Header />
                 {!this.state.loadVideo ?
                     [
+                        <Header />,
                         <Input  handleInput={this.handleInput}
                                 placeholder="Search..."/>
                     ]
