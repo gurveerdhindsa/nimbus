@@ -1,8 +1,6 @@
 .url-input {
-    margin-top: 20%;
-}
-.disable {
-    display: none;
+    display: flex;
+    margin-top: 10%;
 }
 
 .input {
@@ -10,21 +8,27 @@
     height: 40px;
     margin: auto;
     display: block;
-    background-color: grey;
+    background: transparent;
+    border: none;
+    background-color: rgba(105, 105, 105, 0.2);
     border-style: none;
-
+    font-family: Arial, FontAwesome;
+    padding-left: 10px;
+    font-size: 15px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 5px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .input::placeholder {
-    color: #D3D3D3;
     opacity: 0.5;
+    color: rgba(255, 255, 255, 0.8);
 }
 
-.valid {
-    background: #d5fdd5;
+.input::text {
+    margin-left: 5px;
+    color: white;
 }
 
 .invalid {

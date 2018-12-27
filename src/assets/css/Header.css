@@ -5,10 +5,6 @@
     opacity: 0.8;
 }
 
-.disable {
-    display: none;
-}
-
 .title {
     width: 50%;
     margin: auto;
@@ -19,7 +15,7 @@
     opacity: 0.8;
 }
 
-.prompt {
+.message {
     margin: auto;
     display: block;
     font-family: 'Gloria Hallelujah', cursive;

@@ -1,13 +1,13 @@
-import '../assets/css/App.css';
 import React, { Component } from 'react';
 import Content from './Content';
-//import Header from './Header';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEllipsisV, faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faEllipsisV, faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import '../assets/css/App.css';
 
-library.add(faEllipsisV)
-library.add(faSearch)
+//Add Font Awesome icons to library
+library.add(faEllipsisV);
+library.add(faArrowLeft);
 
 class App extends React.Component {
 

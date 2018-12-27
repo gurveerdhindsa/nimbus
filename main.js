@@ -27,6 +27,7 @@ function createWindow() {
     darkTheme: true,
     center: true,
     fullscreenable: true,
+    resizable: false
   });
 
   // and load the index.html of the app.
