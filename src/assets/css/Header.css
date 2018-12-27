@@ -1,12 +1,26 @@
-.icon-drag {
-    color: white;
-    -webkit-app-region: drag;
-    opacity: 0.3;
+.nimbus-image {
+    width: 30%;
+    margin: auto;
+    display: block;
+    opacity: 0.8;
 }
 
-.nimbus-image {
+.title {
     width: 50%;
     margin: auto;
     display: block;
-    opacity: 0.7;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+}
+
+.prompt {
+    margin: auto;
+    display: block;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    opacity: 0.4;
 }

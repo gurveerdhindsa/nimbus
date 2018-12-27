@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import '../assets/css/Header.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import '../assets/css/App.css';
 
 const Header = props => (
-    <div>
-        <FontAwesomeIcon className="icon-drag" icon="ellipsis-v" />
-
+    <div className="header">
         <img className="nimbus-image" src={require('../assets/images/nimbus.png')} />
+        <h1 className="title">Nimbus</h1>
+        <h2 className="prompt">Enter a YouTube URL to begin watching!</h2>
     </div>
 );
 

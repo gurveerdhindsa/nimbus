@@ -1,0 +1,11 @@
+.content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.icon-drag {
+    color: white;
+    -webkit-app-region: drag;
+    opacity: 0.6;
+}

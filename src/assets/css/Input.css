@@ -1,13 +1,23 @@
+.url-input {
+    margin-top: 20%;
+}
+
 .input {
     width: 50%;
+    height: 40px;
     margin: auto;
     display: block;
-    opacity: 0.4;
-    background: white;
+    background-color: grey;
+    border-style: none;
 
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
-    border-radius: 50px;
+    border-radius: 5px;
+}
+
+.input::placeholder {
+    color: #D3D3D3;
+    opacity: 0.5;
 }
 
 .valid {
