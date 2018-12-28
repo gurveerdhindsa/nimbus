@@ -1,6 +1,8 @@
 <p align="center">
-  <img width="100" height="90" src="screenshots/nimbus.png">
+  <img width="100" height="85" src="screenshots/nimbus.png">
+  <h1>Nimbus</h1>
 </p>
+
 
 ### To get started:
 * Run `npm install`
