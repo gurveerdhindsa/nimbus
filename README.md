@@ -3,7 +3,7 @@
   <h1 align="center">Nimbus</h1>
 </p>
 
-> Cross platform, multi-tasking video player
+> Cross platform, multi-tasking YouTube player
 
 ## Features
 - Transparent application
@@ -34,3 +34,7 @@ npm run dev
 
 ##  Support
 - Website at <a href="https://gurveerdhindsa.github.io/portfolio/" target="_blank">`gurveerdhindsa.github.io`</a>
+
+## TODO
+- Integration with more video streaming sites
+- Cutomizable opacity
