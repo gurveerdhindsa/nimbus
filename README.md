@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="460" height="300" src="/screenshots/nimbus">
+</p>
+
 ### To get started:
 * Run `npm install`
 
