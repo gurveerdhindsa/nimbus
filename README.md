@@ -1,6 +1,6 @@
 <p align="center">
   <img src="screenshots/nimbus.png">
-  <h1>Nimbus</h1>
+  # Nimbus
 </p>
 
 
