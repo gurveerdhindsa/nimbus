@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="460" height="300" src="/screenshots/nimbus">
+  <img width="460" height="300" src="screenshots/nimbus.png">
 </p>
 
 ### To get started:
